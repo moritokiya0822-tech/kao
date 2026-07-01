@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", serif;
+  --font-sans: "Inter", "Noto Sans JP", sans-serif;
+
+  --color-luxury-gold-50: #f8fafc; /* Slate 50 */
+  --color-luxury-gold-100: #f1f5f9; /* Slate 100 */
+  --color-luxury-gold-200: #e2e8f0; /* Slate 200 */
+  --color-luxury-gold-300: #cbd5e1; /* Slate 300 */
+  --color-luxury-gold-400: #94a3b8; /* Slate 400 */
+  --color-luxury-gold-500: #0f172a; /* Slate 900 (Main Accent) */
+  --color-luxury-gold-600: #334155; /* Slate 700 */
+  --color-luxury-gold-700: #1e293b; /* Slate 800 */
+  --color-luxury-gold-800: #0f172a; /* Slate 900 */
+  --color-luxury-gold-900: #020617; /* Slate 950 */
+
+  --color-hotel-dark: #0f172a; /* Slate 900 */
+  --color-hotel-bg: #f8fafc; /* Slate 50 */
+}
+
