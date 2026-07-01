@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(({ command }) => {
   return {
+    // 本番ビルド（command === 'build'）のときだけ、GitHub Pagesのサブディレクトリ "/kao/" をベースパスに設定します。
+    // AI Studioなどの開発用ローカル環境では、通常通り "/" として動作させます。
     base: command === 'build' ? '/kao/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
