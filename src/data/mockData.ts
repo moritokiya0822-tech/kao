@@ -7,7 +7,7 @@ import { LocationInfo, TimeSlot, Employee, Shift, ShiftRequest, ChatMessage } fr
 
 export const LOCATIONS: LocationInfo[] = [
   { id: 'tokyo_grand', name: 'StaySync Luxury Tokyo', jpName: '東京グランドホテル＆スパ' },
-  { id: 'kyoto_villa', name: 'StaySync Heritage Kyoto', jpName: '京都嵐山リトリートヴィラ' }
+  { id: 'kyoto_villa', name: 'StaySync Heritage Kyoto', jpName: '京都リトリートヴィラ' }
 ];
 
 export const TIME_SLOTS: TimeSlot[] = [
