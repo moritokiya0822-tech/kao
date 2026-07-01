@@ -1,6 +1,0 @@
-{
-  "name": "StaySync",
-  "description": "StaySync - 高級ホテル向けの洗練されたマルチ部門・多拠点シフト管理プラットフォーム。リアルタイム人員配置分析、希望休・勤務可能日入力、アプリ内チャット機能を備えたスタイリッシュなシフト管理ソフト。",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
